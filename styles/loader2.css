@@ -1,0 +1,20 @@
+.loader2 {
+  font-family: "Modak", cursive;
+  color: tomato;
+  font-size: 50px;
+  display: flex;
+}
+
+.loader2::after {
+  content: "...";
+  display: inline-block;
+  overflow: hidden;
+  animation: dots steps(4, end) 2s infinite;
+  width: 0;
+}
+
+@keyframes dots {
+  to {
+    width: 1.2em;
+  }
+}

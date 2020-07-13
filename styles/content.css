@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  transition: opacity 2s ease-in;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in;
+}
+
+main {
+  font-family: "Modak", cursive;
+  color: palevioletred;
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 0.75em;
+}
